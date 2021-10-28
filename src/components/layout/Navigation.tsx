@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white">
+    <div className="sticky top-0 z-50 bg-black text-white">
       <div className="flex items-center justify-between h-14 layout">
         <nav>
           <ul className="flex items-center justify-between space-x-4">
@@ -9,6 +9,6 @@ export default function Header() {
           </ul>
         </nav>
       </div>
-    </header>
+    </div>
   );
 }
