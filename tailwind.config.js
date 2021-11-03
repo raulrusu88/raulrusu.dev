@@ -16,6 +16,8 @@ module.exports = {
       },
       colors: {
         blueGray: colors.blueGray,
+        raulDark: "#0E0E0E",
+        "raulDark-500": "#282424",
       },
     },
   },
