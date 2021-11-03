@@ -4,6 +4,10 @@
 
 /* Tailwind setup - https://github.com/theodorusclarence/ts-nextjs-tailwind-starter/blob/main/src/styles/globals.css */
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --tw-clr-primary-400: 0, 224, 243;
   --tw-clr-primary-500: 0, 196, 253;
