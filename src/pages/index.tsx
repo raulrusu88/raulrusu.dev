@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Experience } from "../components/Experience";
 import Header from "../components/Header";
 import Layout from "../components/layout/Layout";
 
@@ -12,6 +13,7 @@ export default function Home() {
 
       <main className="min-h-main">
         <Header />
+        <Experience />
       </main>
     </Layout>
   );
